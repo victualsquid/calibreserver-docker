@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  calibreserver:
+    build: .
+    image: tobias-calibre
+    environment:
+      - PUID=1000 
+      - PGID=1000 
+    ports:
+      - 8080:8080
+    volumes:
+      - /mnt/zdrive/calibre:/library,ro
+
