@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:bullseye-slim
 
 # set version label
 ARG BUILD_DATE
