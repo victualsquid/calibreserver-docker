@@ -9,5 +9,6 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - /mnt/zdrive/calibre:/library
+      - /mnt/share/calibre:/library
+    restart: always
 
