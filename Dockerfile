@@ -1,10 +1,6 @@
 FROM debian:bullseye-slim
 
 # set version label
-ARG BUILD_DATE
-ARG VERSION
-ARG CALIBRE_RELEASE
-LABEL build_version="calibre:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="tobias"
 
 ENV \
