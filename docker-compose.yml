@@ -9,7 +9,7 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - /mnt/share/calibre:/library
+      - /data/local/calibre:/library
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     restart: always
